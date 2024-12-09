@@ -45,7 +45,7 @@ class EnseignantRepositoryTest {
     void Not_findEnseignantByEmail() {
         String email = "tes@gmail.com";
         Enseignant result = enseignantRepository.findEnseignantByEmail(email);
-        AssertionsForClassTypes.assertThat(result).isNotNull();
+        AssertionsForClassTypes.assertThat(result).isNull();
     }
 
 
