@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: discovery-service
-          image: douae369/configuration-service
+          image: douae369/discovery-service
           imagePullPolicy: Never
           ports:
             - containerPort: 8761
